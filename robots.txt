@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Draft privacy pages use per-page noindex until verified.

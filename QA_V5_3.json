@@ -1,0 +1,20 @@
+{
+  "website_version": "5.3",
+  "date": "2026-11-01",
+  "source": "Graff_Entertainment_v5_2_WEBKLAR_GitHub_Pages.zip",
+  "site_pages": 18,
+  "root_redirect_included": true,
+  "changes": [
+    "Sugar Sorter DA/EN policy: removed UDKAST/DRAFT status and substituted transparent pre-launch note"
+  ],
+  "unchanged_policy_pages": [
+    "Find den ene DA/EN",
+    "Lær klokken med drager DA/EN"
+  ],
+  "not_implemented_as_current": [
+    "Cloudflare D1 back-end",
+    "24 month server deletion",
+    "purchased credits recovery"
+  ],
+  "hosted": false
+}
