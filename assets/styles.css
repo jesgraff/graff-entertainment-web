@@ -11,3 +11,20 @@ details.dropdown > summary::-webkit-details-marker {display:none;}
 details.dropdown[open] > .dropdown-menu {display:grid;gap:4px;}
 @media (hover:none) {.dropdown:hover:not([open]) .dropdown-menu {display:none;} .dropdown:focus-within:not([open]) .dropdown-menu {display:none;}}
 html {scroll-behavior:smooth;}
+
+
+/* v5.3.1: Mobile Spil menu must stay inside the screen.
+   Anchored to the full-width header instead of the leftmost Spil button. */
+@media (max-width:730px) {
+  .site-header .dropdown { position:static; }
+  .site-header .dropdown-menu {
+    left:15px;
+    right:15px;
+    top:calc(100% + 6px);
+    width:auto;
+    max-width:none;
+    min-width:0;
+    box-sizing:border-box;
+    z-index:30;
+  }
+}
