@@ -28,3 +28,12 @@ html {scroll-behavior:smooth;}
     z-index:30;
   }
 }
+
+/* Towers Away! is a landscape-oriented game; keep the source screenshots uncropped. */
+.game-thumb.towers{background:linear-gradient(145deg,#bcecf7,#efdac0)}
+.game-thumb.towers img{width:94%;max-height:260px;height:auto;object-fit:contain;transform:none}
+.game-card:hover .game-thumb.towers img{transform:scale(1.03)}
+.towers-portrait img{object-fit:contain;background:#e1f5f8}
+.towers-gallery .shot-img{height:190px;padding:8px}
+.towers-gallery .shot-img img{width:100%;height:auto;max-height:100%;object-fit:contain}
+@media(max-width:730px){.game-thumb.towers img{max-width:95%;max-height:215px}.towers-gallery .shot-img{height:140px}}
